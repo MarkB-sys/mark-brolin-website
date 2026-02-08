@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Mark Brolin — Contact</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800;900&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="css/styles.css" />
+</head>
+<body class="page-contact">
+  <header class="site-header">
+    <nav class="nav">
+      <a class="brand" href="index.html">Mark Brolin</a>
+      <div class="links">
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="publications.html">Publications</a>
+        <a class="current" href="contact.html">Services/Contact</a>
+      </div>
+    </nav>
+  </header>
+
+  <main class="container">
+    <h1 class="title">Services/Contact</h1>
+    <p class="subtitle">Get in touch with Mark Brolin</p>
+
+    <section class="card centered">
+      <p>
+        For inquiries about speaking engagements, media interviews, consulting or other collaboration opportunities, please reach out to Mark and his team via the message option below.
+        For speaking engagements Mark can also be reached via a number of speaker agency partners:
+      </p>
+      <p class="partners spaced">
+        <a href="https://www.chartwellspeakers.com" target="_blank" rel="noopener">Chartwell Speakers</a> ·
+        <a href="https://www.londonspeakerbureau.com" target="_blank" rel="noopener">London Speaker Bureau</a> ·
+        <a href="https://www.talarforum.se" target="_blank" rel="noopener">Talarforum</a> ·
+        <a href="https://www.skillspartner.se" target="_blank" rel="noopener">Skillspartner</a> ·
+        <a href="https://www.myspeaker.se" target="_blank" rel="noopener">MySpeaker</a> ·
+        <a href="https://www.footprintspeakers.com" target="_blank" rel="noopener">Footprint Speakers</a> ·
+        <a href="https://www.inspirationstalarnasverige.se" target="_blank" rel="noopener">Inspirationstalarna</a> ·
+        <a href="https://www.a-speakers.com/speakers/mark-brolin/" target="_blank" rel="noopener">A-Speakers</a>
+      </p>
+    </section>
+
+    <section class="card centered">
+      <h2>How Mark helps</h2>
+      <div class="services-container">
+        <div class="top-row" style="display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.5rem; margin-bottom: 1.5rem;">
+          <div class="help-card"><h3>Speaking Engagements</h3><p>"Beyond the Bias" - Keynote presentations and panel discussions for conferences, corporate events, and academic institutions worldwide.</p></div>
+          <div class="help-card"><h3>Executive Briefings</h3><p>In-depth briefings for senior leadership teams on geopolitical developments and their strategic implications for your organization.</p></div>
+          <div class="help-card"><h3>Media Appearances</h3><p>Expert commentary and analysis on current geopolitical events for television, radio, podcasts, and print media.</p></div>
+        </div>
+        <div class="bottom-row" style="display: flex; justify-content: center; gap: 1.5rem;">
+          <div class="help-card strategic" style="flex: 0 0 calc(33.33% - 0.75rem);"><h3>Strategic Advice</h3><p>Strategic advisory - including Bias Audits - for organisations seeking disciplined, bias-resistant understanding of geopolitical and geoeconomic risk and opportunities.</p></div>
+          <div class="help-card" style="flex: 0 0 calc(33.33% - 0.75rem);"><h3>Operational Geopolitics - Built In</h3><p>Help to outpace rivals permanently by embedding a professional geopolitical in-house capability – synchronised across departments and integrated with traditional market research/strategy.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section class="card centered">
+      <h2>Regular keynote themes include:</h2>
+      <div class="themes-list" style="text-align: center;">
+        <p>Beyond the Bias: Headlines, Geopolitics and Why the World Is Less Broken Than We Think</p>
+        <p>Beyond the Bias: Same Data, Same Blind Spots - Beating AI-Driven Groupthink</p>
+        <p>Beyond the Bias: How Technology Outruns Politics - and How Smart Design Can Improve Both</p>
+        <p>Beyond the Bias: Why the US Keeps Winning the Innovation Race - and the (Bias) Reset Europe Needs to catch up</p>
+        <p>Beyond the Bias: Europe's Quiet Innovation Powerhouses - Playbooks from the UK, Switzerland, Sweden and Denmark</p>
+        <p>Beyond the Bias: AI, Geopolitics and 'Glocalisation' - Do's and Don'ts in a Transformative Era</p>
+        <p>Beyond the Bias: Country and Regional Outlooks Without the Usual Filters - USA, China, India, Russia, Middle East, EU, UK and Nordics</p>
+      </div>
+    </section>
+
+    <!-- Netlify form (so submissions reach your inbox via Netlify notifications) -->
+    <section class="card centered">
+      <h2>Send a message</h2>
+      <form name="contact" method="POST" netlify netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contact" />
+        <p class="hidden-field"><label>Don’t fill this out: <input name="bot-field" /></label></p>
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea rows="5" name="message" placeholder="Your Message" required></textarea>
+        <button type="submit">Send Message</button>
+      </form>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <hr />
+      <p>Mark Brolin</p>
+      <p>Geopolitical Strategy & Strategic Advisory</p>
+      <p>© 2025 Mark Brolin - All Rights Reserved</p>
+      <hr />
+    </div>
+  </footer>
+
+  <script src="js/script.js" defer></script>
+</body>
+</html>
