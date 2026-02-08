@@ -202,3 +202,16 @@
   .footer-inner p { margin: .5rem 0; }
   .footer-inner hr { border: none; border-top: 1px solid var(--border); margin: 1.2rem auto; width: 100%; max-width: 480px; }
   
+  /* Media & Insights links */
+  .media-link {
+    color: var(--a1) !important;
+    text-decoration: none;
+    cursor: pointer;
+    display: block;
+    transition: opacity 0.2s, text-decoration 0.2s;
+  }
+  .media-link:hover {
+    opacity: 0.8;
+    text-decoration: underline;
+  }
+  
